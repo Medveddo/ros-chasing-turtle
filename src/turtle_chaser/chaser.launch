@@ -1,0 +1,26 @@
+<launch>
+  <node 
+    pkg="turtlesim" 
+    type="turtlesim_node" 
+    name="leader_turtle" 
+    output="screen" 
+  >
+  </node>
+  
+  <node 
+    pkg="turtlesim" 
+    type="turtle_teleop_key" 
+    name="keys_publisher" 
+    output="screen" 
+  />
+
+  <node
+    name="chaser_turtle_node"
+    pkg="turtle_chaser"
+    type="turtle_chaser.py"
+    output="screen"
+  >
+    <param name="chase_speed" value="0.5" />
+  </node>
+</launch>
+
