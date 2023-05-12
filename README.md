@@ -4,7 +4,14 @@ ROS package with launch file that spawns two turtles. First turtle is controlled
 
 ## Showcase
 
+Environment:
+
+- OS: Ubuntu 20.04.6 LTS (Focal Fossa)
+- ROS: Noetic 1.16.0
+- Python: 3.8.10
+
 ![Chase turtlesim example](screenshots/chase_turtlesim_example.png)
+![Chase turtlesim example #2](screenshots/chase_turtlesim_example2.png)
 
 ## How to start
 
